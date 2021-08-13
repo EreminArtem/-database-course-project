@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>a8fac2b5-6645-4420-9ade-729059e84435.SCHEMA:study_journal</OriginalElement>
+  <nodes>
+    <node x="385.0" y="164.0">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.teachers</node>
+    <node x="17.0" y="153.0">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.students</node>
+    <node x="209.99999999999997" y="0.0">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.study_groups</node>
+    <node x="200.99999999999997" y="164.0">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.courses</node>
+    <node x="-151.4986508232867" y="519.9576442974502">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.scores</node>
+    <node x="255.5" y="471.9647924890643">a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.lessons</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.courses" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.study_groups" relationship="REFERENCES">
+      <point x="0.0" y="-116.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.scores" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.students" relationship="REFERENCES">
+      <point x="-40.0" y="-61.5" />
+      <point x="-111.49865082328671" y="765.0" />
+      <point x="99.0" y="765.0" />
+      <point x="0.0" y="127.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.lessons" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.teachers" relationship="REFERENCES">
+      <point x="54.0" y="-138.5" />
+      <point x="390.5" y="435.0" />
+      <point x="467.0" y="435.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.students" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.study_groups" relationship="REFERENCES">
+      <point x="0.0" y="-127.5" />
+      <point x="99.0" y="127.0" />
+      <point x="282.5" y="127.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.lessons" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.study_groups" relationship="REFERENCES">
+      <point x="0.0" y="-138.5" />
+      <point x="336.5" y="435.0" />
+      <point x="374.5" y="435.0" />
+      <point x="374.5" y="127.0" />
+      <point x="282.5" y="127.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.scores" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.lessons" relationship="REFERENCES">
+      <point x="40.0" y="-61.5" />
+      <point x="-31.49865082328671" y="765.0" />
+      <point x="336.5" y="765.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.lessons" target="a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.courses" relationship="REFERENCES">
+      <point x="-54.0" y="-138.5" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0035331905781584" showDependencies="false" x="688.6456420051752" y="419.4825562786728" />
+  <SelectedNodes>
+    <node>a8fac2b5-6645-4420-9ade-729059e84435.TABLE:study_journal.scores</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
